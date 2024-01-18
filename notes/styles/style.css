@@ -1,4 +1,4 @@
 html {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 10px;
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light:regular);
+
 }
