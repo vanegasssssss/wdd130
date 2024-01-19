@@ -23,3 +23,12 @@ h1 {
 .rems li {
     font-size: 1.3rem;
   }
+
+.lh {
+    margin: 0;
+    background-image: repeating-linear-gradient(
+      to top,
+      lightskyblue 0 2px,
+      transparent 2px 1lh
+    );
+  }

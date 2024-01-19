@@ -140,7 +140,25 @@
                   </ul>
                 </li>
               </ul>
-        </main>
+        
+              <h2>Line height units</h2>
+                <p>lh and rlh are relative lengths units similar to em and rem. The difference between lh and rlh is that the first one is relative to the line height of the element itself, while the second one is relative to the line height of the root element, usually <html>.
+
+                  Using these units, we can precisely align box decoration to the text. In this example, we use lh unit to create notepad-like lines using repeating-linear-gradient(). It doesn't matter what's the line height of the text, the lines will always start in the right place.</p>
+        
+                  <p class="lh" style="line-height: 2em">
+                    Summer is a time for adventure, and this year was no exception. I had many
+                    exciting experiences, but two of my favorites were my trip to the beach and my
+                    week at summer camp.
+                  </p>
+                  
+                  <p class="lh" style="line-height: 4em">
+                    At the beach, I spent my days swimming, collecting shells, and building
+                    sandcastles. I also went on a boat ride and saw dolphins swimming alongside
+                    us.
+                  </p>
+        
+            </main>
 
         <footer>
             <p>&copy;2024 Oscar Vanegas, Guatemala, Guatemala.</p>
