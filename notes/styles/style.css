@@ -14,3 +14,11 @@ h1 {
     margin: 0;
     padding: 20px 0;
   }
+
+.ems li {
+    font-size: 1.3em;
+  }
+  
+.rems li {
+    font-size: 1.3rem;
+  }
