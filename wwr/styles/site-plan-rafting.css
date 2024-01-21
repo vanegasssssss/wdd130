@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --primary-color: #0B6E4F;
+    --secondary-color: #477377;
+    --accent1-color: #EAAE5A;
+    --accent2-color: #936540;
+
+    --heading-font: ubuntu, sans-serif;
+    --paragraph-font: ubuntu, sans-serif;
+
+    --nav-background-color: #63cc71d1;
+    --nav-link-color: #50878d;
+    --nav-hover-link-color: #e3bb83;
+    --nav-hover-background-color: #91735b;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 15px;
+    background-color: var(--nav-hover-background-color);
+}
+
+p{
+    padding: 20px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color); 
+    background-color: var(--nav-hover-background-color);
+}
+
+#stronggreen{
+    width: 200px;
+    height: 50px;
+    background-color: #0B6E4F;
+    border: 1px solid black;
+
+}
+#lightergreen{
+    width: 200px;
+    height: 50px;
+    background-color: #477377;
+    border: 1px solid black;
+
+}
+#accent1{
+    width: 200px;
+    height: 50px;
+    background-color: #EAAE5A;
+    border: 1px solid black;
+
+}
+#accent2{
+    width: 200px;
+    height: 50px;
+    background-color: #936540;
+    border: 1px solid black;
+
+}
+
