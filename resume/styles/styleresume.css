@@ -80,3 +80,25 @@ img {
     display: flex;
     flex-direction: column;
   }
+
+  .leftPanel .smallText, 
+  .leftPanel .smallText, 
+  .leftPanel .smallText span, 
+  .leftPanel .smallText p, 
+  .smallText a {
+    font-size: 0.40cm;
+  }
+  .smallText, 
+  .smallText span, 
+  .smallText p, 
+  .smallText a {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .contactIcon {
+    width: 0.5cm;
+  }
+  .leftPanel, 
+  .leftPanel a {
+    color: #bebebe;
+    text-decoration: none;
+  }
