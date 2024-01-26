@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --primary-color: #0B6E4F;
+    --secondary-color: #477377;
+    --accent1-color: #EAAE5A;
+    --accent2-color: #936540;
+
+    --heading-font: ubuntu, sans-serif;
+    --paragraph-font: ubuntu, sans-serif;
+
+    --nav-background-color: #63cc71d1;
+    --nav-link-color: #50878d;
+    --nav-hover-link-color: #e3bb83;
+    --nav-hover-background-color: #91735b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 20px;
+    height: 115px;
+    background-color: var(--nav-background-color);
+    position: relative;
+}
+
+header nav {
+    padding: 10px;
+    display: flex;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+header nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header img {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    left: 150px;
+    top: 18px;
+}
