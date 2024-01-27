@@ -44,7 +44,6 @@ main {
 aside{
     width: 400px;
     height: 400px;
-    color: rgb(100, 67, 199);
     position: relative;
 }
 
@@ -86,4 +85,5 @@ footer {
     border: 1px solid black;
     padding: 1rem;
     background-color: rgba(212, 240, 237);
+    color: rgb(100, 67, 199);
 }
