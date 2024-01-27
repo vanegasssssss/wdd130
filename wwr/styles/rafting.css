@@ -9,7 +9,7 @@
     --heading-font: ubuntu, sans-serif;
     --paragraph-font: ubuntu, sans-serif;
 
-    --nav-background-color: #63cc71d1;
+    --nav-background-color: #062d0bd1;
     --nav-link-color: #50878d;
     --nav-hover-link-color: #e3bb83;
     --nav-hover-background-color: #91735b;
@@ -22,8 +22,7 @@
 }
 
 header {
-    margin: 20px;
-    height: 115px;
+    height: 160px;
     background-color: var(--nav-background-color);
     position: relative;
 }
@@ -35,7 +34,7 @@ header nav {
     text-decoration: none;
     position: absolute;
     right: 60px;
-    top: 20px;
+    top: 45px;
 }
 
 header nav a {
@@ -43,12 +42,55 @@ header nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    font-size: 25px;
 }
 
 header img {
-    height: 80px;
+    height: 160px;
     width: auto;
     position: absolute;
     left: 150px;
-    top: 18px;
+    top: 1px;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    z-index: 2;
+    color: white;
+    font-size: 60px;
+    background-color: var(--nav-background-color);
+}
+
+.hero article {
+    position: absolute;
+    left: 7%;
+    top: 35%;
+    text-align: justify;
+    width: 1300px;
+    font-size: 35px;
+    color: white;
+    z-index: 2;
+    padding: 10px;
+    background-color: rgb(63, 112, 116, 0.8);
+}
+
+.hero img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+
+.hero article img {
+    height: 200px;
+    width: auto;
+    float: right; 
+    margin: 15px;   
 }
