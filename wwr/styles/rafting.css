@@ -94,3 +94,47 @@ header img {
     float: right; 
     margin: 15px;   
 }
+
+
+
+#history {
+    position: relative;
+    top: 5em;
+    width: 100%;
+}
+
+#history h2 {
+    font-size: 35px;
+    padding-left: 45%;
+    padding-top: 5%;
+}
+
+#history p {
+    width: 80%;
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+#adventure {
+    position: relative;
+    top: 15em;
+    width: 100%;
+}
+
+#adventure img{
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    position: relative;
+    top: 25em;
+    width: 100%;
+}
+
+footer nav img {
+    height: 30px;
+    width: auto;
+}
