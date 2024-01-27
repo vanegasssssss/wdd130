@@ -56,11 +56,13 @@ header img {
 .hero {
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1 {
     position: absolute;
-    left: 12.5%;
     top: 14%;
     z-index: 2;
     color: white;
@@ -70,8 +72,6 @@ header img {
 
 .hero article {
     position: absolute;
-    left: 7%;
-    top: 35%;
     text-align: justify;
     width: 85.5%;
     font-size: 35px;
