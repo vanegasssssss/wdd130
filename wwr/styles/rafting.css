@@ -10,7 +10,7 @@
     --paragraph-font: ubuntu, sans-serif;
 
     --nav-background-color: #062d0bd1;
-    --nav-link-color: #50878d;
+    --nav-link-color: #b7d3d6;
     --nav-hover-link-color: #e3bb83;
     --nav-hover-background-color: #91735b;
 }
@@ -25,6 +25,10 @@ header {
     height: 160px;
     background-color: var(--nav-background-color);
     position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0,1fr));
+    gap: 20px;
+    align-items: center;
 }
 
 header nav {
@@ -32,9 +36,12 @@ header nav {
     display: flex;
     color: var(--nav-link-color);
     text-decoration: none;
+    /* This is how it was positioned before:
     position: absolute;
     right: 60px;
-    top: 45px;
+    top: 45px; */
+    grid-column: 8 / 13;
+    grid-row: 1;
 }
 
 header nav a {
@@ -48,9 +55,13 @@ header nav a {
 header img {
     height: 160px;
     width: auto;
+    /* This is how it was positioned before: 
     position: absolute;
     left: 150px;
-    top: 1px;
+    top: 1px; */
+    grid-column: 2 / 13;
+    grid-row: 1;
+    border-radius: 100%;
 }
 
 .hero {
@@ -78,6 +89,7 @@ header img {
     color: white;
     z-index: 2;
     padding: 10px;
+    top: 40%;
     background-color: rgb(63, 112, 116, 0.8);
 }
 
@@ -101,40 +113,108 @@ header img {
     position: relative;
     top: 5em;
     width: 100%;
+    align-items: center;
+    text-align: center;
 }
 
 #history h2 {
     font-size: 35px;
     padding-left: 45%;
     padding-top: 5%;
+    z-index: 2;
+    position: absolute;
+    top: 10%;
 }
 
 #history p {
-    width: 80%;
+    width: 64%;
     font-size: 25px;
     text-align: justify;
-    padding-left: 20%;
-    padding-top: 5%;
+    left: 18%;
+    z-index: 2;
+    position: absolute;
+    top: 33%;
+    background-color: rgb(105, 186, 160, 0.7);
+}
+
+#history img {
+    z-index: 1;
+    opacity: 0.5;
+    border-radius: 100%;
 }
 
 #adventure {
     position: relative;
     top: 15em;
     width: 100%;
+    background-color: var(--secondary-color);
+    height: 40em;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-#adventure img{
-    width: 80px;
-    height: 80px;
+#adventure img {
+    height: auto;
+    width: 80%;
 }
+
+#adventure h2 {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+
+/* #one img {
+    height: auto;
+    width: 20%;
+    position: absolute;
+    left: 3%;
+    top: 25%;
+}
+
+#two img {
+    height: auto;
+    width: 20%;
+    position: absolute;
+    left: 27%;
+    top: 25%;
+}
+
+#three img {
+    position: absolute;
+    left: 40%;
+    height: 50px;
+    width: 50px;
+}
+
+#four img {
+    position: absolute;
+    left: 60%;
+    height: 10px;
+    width: auto;
+}
+
+#five img {
+    position: absolute;
+    left: 80%;
+    height: 50px;
+    width: 50px;
+} */
 
 footer {
     position: relative;
     top: 25em;
     width: 100%;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
 }
 
 footer nav img {
     height: 30px;
     width: auto;
+}
+
+main {
+    background-color: var(--nav-hover-link-color);
 }
