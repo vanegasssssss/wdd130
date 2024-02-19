@@ -6,42 +6,43 @@
         <title> Poll-Form | WDD130</title>
         <meta name="description" content="Practice page for learning activities of forms.">
         <meta name="author" content="Oscar Vanegas">
-        <link href="styles/Poll-Form.css" rel="stylesheet">
+        <link href="style/poll-form.css" rel="stylesheet">
     </head>
 
     <body>
         <header>
             <h1>WDD 130 | Oscar Vanegas | HTML Form - User Poll</h1>
         </header>
-    <main>
-        <form>
-            <fieldset>
-                <legend>Contact information</legend>
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname"><br><br>
-                <label for="useremail">Email Address</label>
-                <input type="text" id="useremail" name="useremail">
-            </fieldset>
-            <fieldset>
-                <legend>Questions</legend>
-                <label for="browser">What is your favorite browser?</label>
-                <select name="browser" id="browser">
-                    <option value=""></option>
-                    <option value="Mozilla-Firefox">Mozilla-Firefox</option>
-                    <option value="Microsoft-Edge">Microsoft-Edge</option>
-                    <option value="Google-Chrome">Google-Chrome</option>
-                    <option value="Opera">Opera</option>
-                    <option value="Safari">Safari</option>
-                </select>
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" name="pet" id="pet"><br><br>
-                <label for="places">List the places you have lived:</label>
-                <textarea name="places" id="places" cols="33" rows="2" placeholder="Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panamá."></textarea>
-            </fieldset>
-            <button type="submit">Submit Poll</button>
-        </form>
+        <main>
+            <form>
+                <fieldset id="top">
+                    <legend>Contact information</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname"><br><br>
+                    <label for="useremail">Email Address</label>
+                    <input type="text" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset id="bottom">
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value=""></option>
+                        <option value="Mozilla-Firefox">Mozilla-Firefox</option>
+                        <option value="Microsoft-Edge">Microsoft-Edge</option>
+                        <option value="Google-Chrome">Google-Chrome</option>
+                        <option value="Opera">Opera</option>
+                        <option value="Safari">Safari</option>
+                    </select>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet"><br><br>
+                    <label for="places">List the places you have lived:</label>
+                    <textarea name="places" id="places" cols="33" rows="2" placeholder="Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panamá."></textarea>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
 
-    </main>
+        </main>
+    </body>
     <footer>
         <p>&#169 2024 | HTML Form - User Poll Activity | Oscar Vanegas</p>
     </footer>
