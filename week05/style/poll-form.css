@@ -84,14 +84,15 @@ button {
     color: white;
 } */
 
-/* Reset default margin, padding, and box-sizing */
+/*I WAS DOING IT IN A NOT EASY WAY, I STARTED AGAIN BUT
+I JUST DIDN'T WANT TO DELETE EVERYTHING I DID*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body styles */
   body {
     font-family: Merriweather, Georgia, serif;
     font-size: 1.2em;
@@ -99,7 +100,6 @@ button {
     background: #fff;
   }
   
-  /* Header styles */
   header {
     margin: 0 auto;
     width: 650px;
@@ -112,7 +112,6 @@ button {
     text-align: center;
   }
   
-  /* Form styles */
   form {
     width: 650px;
     margin: 0 auto;
@@ -171,7 +170,6 @@ button {
     background-color: darkgreen;
   }
   
-  /* Footer styles */
   footer {
     margin: 1rem auto 0;
     width: 650px;
@@ -181,7 +179,6 @@ button {
     border-top: 1px solid #ccc;
   }
   
-  /* Form item styles */
   .form-item {
     display: grid;
     align-items: center;
