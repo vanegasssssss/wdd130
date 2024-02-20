@@ -15,27 +15,35 @@
         </header>
         <main>
             <form>
-                <fieldset id="top">
+                <fieldset>
                     <legend>Contact information</legend>
-                    <label for="fullname">Full Name</label>
-                    <input type="text" id="fullname" name="fullname"><br><br>
-                    <label for="useremail">Email Address</label>
-                    <input type="text" id="useremail" name="useremail">
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname"><br><br>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email Address</label>
+                        <input type="text" id="useremail" name="useremail">
+                    </div>
                 </fieldset>
-                <fieldset id="bottom">
-                    <legend>Questions</legend>
-                    <label for="browser">What is your favorite browser?</label>
-                    <select name="browser" id="browser">
-                        <option value=""></option>
-                        <option value="Mozilla-Firefox">Mozilla-Firefox</option>
-                        <option value="Microsoft-Edge">Microsoft-Edge</option>
-                        <option value="Google-Chrome">Google-Chrome</option>
-                        <option value="Opera">Opera</option>
-                        <option value="Safari">Safari</option>
-                    </select>
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" name="pet" id="pet"><br><br>
-                    <label for="places">List the places you have lived:</label>
+                <fieldset>
+                    <div class="column1">
+                        <legend>Questions</legend>
+                        <label for="browser">What is your favorite browser?</label>
+                        <select name="browser" id="browser">
+                            <option value=""></option>
+                            <option value="Mozilla-Firefox">Mozilla-Firefox</option>
+                            <option value="Microsoft-Edge">Microsoft-Edge</option>
+                            <option value="Google-Chrome">Google-Chrome</option>
+                            <option value="Opera">Opera</option>
+                            <option value="Safari">Safari</option>
+                        </select>
+                    </div>
+                    <div class="column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" name="pet" id="pet"><br><br>
+                        <label for="places">List the places you have lived:</label>
+                    </div>
                     <textarea name="places" id="places" cols="33" rows="2" placeholder="Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panamá."></textarea>
                 </fieldset>
                 <button type="submit">Submit Poll</button>
