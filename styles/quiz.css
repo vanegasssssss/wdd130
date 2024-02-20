@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+    background: linear-gradient(to top, rgb(0, 247, 99), rgb(92, 177, 205));
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+  }
+
+h1 {
+    margin: 1rem;
+    /* font-size: ;
+    color: ; */
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    height: auto;
+    margin: 20px auto;
+    padding: 1rem;
+    border: 1px solid transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 0.6rem;
+    background: linear-gradient(to bottom, #eacfdb, rgb(232, 162, 162));
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    border: none;
+}
+
+legend {
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 85%;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    padding: 10px;
+    font-weight: 700;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    /* font-size: ; */
+    border-radius: 5px;
+}
+
+button {
+    margin: 0 auto;
+    background-color: rgb(94, 4, 94);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: medium;
+    font-weight: 700;
+}
+
+button:hover { 
+    background-color: rgb(8, 8, 63);
+}
+
+div {
+    display: grid;
+    padding: 10px;
+}
+
+.left {
+    text-align: left;
+}
