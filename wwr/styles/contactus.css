@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
     --primary-color: #0B6E4F;
@@ -19,6 +19,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -54,7 +55,7 @@ header nav a {
 header img {
     height: 160px;
     width: auto;
-    z-index: 2;
+    z-index: 3;
     /* This is how it was positioned before: 
     position: absolute;
     left: 150px;
@@ -71,6 +72,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .hero h1 {
@@ -108,108 +110,93 @@ header img {
     margin: 15px;   
 }
 
-
-
-#history {
-    position: relative;
-    top: 5em;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-}
-
-#history h2 {
-    font-size: 35px;
-    padding-left: 45%;
-    padding-top: 5%;
-    z-index: 2;
+.contactcontainer {
     position: absolute;
+    width: 80%;
+    border: 1px solid black;
+    z-index: 2;
     top: 10%;
+    right: auto;
+    background-color: rgb(209, 235, 235, 0.7);
+    border-radius: 25px;
 }
 
-#history p {
-    width: 64%;
-    font-size: 25px;
-    text-align: justify;
-    left: 18%;
-    z-index: 2;
-    position: absolute;
-    top: 33%;
-    background-color: rgb(105, 186, 160, 0.7);
-}
-
-#history img {
-    z-index: 1;
-    opacity: 0.5;
-    border-radius: 100%;
-}
-
-#adventure {
+#inside {
     position: relative;
-    top: 15em;
-    width: 100%;
+    height: 50%;
+    text-decoration: none;
+    color: white;
     background-color: var(--secondary-color);
-    height: 40em;
+    padding-left: 10%;
+    padding-top: 1rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.contactcontainer div h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+    margin-top: auto;
+}
+
+.contactcontainer div img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    right: 1px;
+    top: 1px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 70px;
+}
+
+
+section { 
     display: grid;
     grid-template-columns: repeat(30, 3.33333333333%);
     grid-template-rows: repeat(30, 3.33333333333%);
-    height: 60rem;
-}
-
-#adventure h2 {
-    position: absolute;
-    top: 4%;
-    left: 26.5%;
-    color: white;
-    font-size: 3.8em;
-    background-color: var(--nav-background-color);
 }
 
 #one {
-    grid-column: 2 / 2;
-    grid-row: 6 / 6;
+    background-color: white;
+    width: 18rem;
+    height: 18rem;
+    grid-column: 5 / 15;
+    grid-row: 2 / 10;
+    border: 1px solid white;
 }
 
 #two {
-    grid-column: 11 / 13;
-    grid-row: 6 / 6;
-    padding-left: 25%;
+    background-color: white;
+    width: 18rem;
+    height: 18rem;
+    grid-column: 20 / 30;
+    grid-row: 2 / 22;
+    border: 1px solid white;
+
 }
 
 #three {
-    grid-column: 21 / 22;
-    grid-row: 6 / 6;
-}
-
-#four {
-    grid-column: 7 / 8;
-    grid-row: 18 / 18;
-}
-
-#five {
-    grid-column: 16 / 17;
-    grid-row: 18 / 18;
-}
-
-
-#adventure figure img {
-    max-height: 250px;
-    max-width: auto;
-    min-height: 100px;
-    min-width: auto;
-    
+    background-color: white;
+    width: 18rem;
+    height: 18rem;
+    grid-column: 5 / 15;
+    grid-row: 19 / 30;    
+    border: 1px solid white;
 } 
 
-#adventure figcaption{
-    border: 1px solid black;
-    background-color: var(--nav-link-color);
-    font-size: large;
-    width: 300px;
+#four {
+    background-color: white;
+    width: 18rem;
+    height: 18rem;
+    grid-column: 20 / 30;
+    grid-row: 19 / 30;
+    border: 1px solid white;
+
 }
 
 footer {
-    position: relative;
-    top: 15em;
     width: 100%;
     color: var(--nav-link-color);
     background-color: var(--nav-background-color);
