@@ -22,7 +22,7 @@
 }
 
 header {
-    height: 90px;
+    height: 84px;
     background-color: var(--nav-background-color);
     position: relative;
     display: grid;
