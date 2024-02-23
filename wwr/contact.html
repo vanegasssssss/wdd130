@@ -53,6 +53,56 @@
                             <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12086.34709932224!2d-111.9008774!3d40.7711125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f5aa65687281%3A0x8f5cb1a018407710!2sBYU-Pathway%20Worldwide!5e0!3m2!1ses-419!2sgt!4v1708499197060!5m2!1ses-419!2sgt" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>                        
                         </div>
                     </section>
+                    <form>
+                        <header>
+                            <h1>Contact us</h1>
+                        </header>
+                    
+                        <fieldset id="personalinfo">
+                            <legend>Fill out the form to get a personalized attention</legend>
+                            <div class="name">
+                                <label class= "left" for="q1">First name</label>
+                                <input type="text" id="q1" name="q1">
+                            </div>
+                            <div class="lastname">
+                                <label class= "left" for="q1">Last name</label>
+                                <input type="text" id="q1" name="q1">
+                            </div>
+                            <div class="name">
+                                <label class= "left" for="q1">Email</label>
+                                <input type="text" id="q1" name="q1">
+                            </div>
+                        </fieldset>
+
+                        <fieldset id="message">
+                            <legend>Please explain what your inquiry is about</legend>
+                            
+                            <div class="name">
+                                <label class= "left" for="q3">What is the purpose of your message?</label>
+                                <select name="q3" id="q3">
+                                    <option value="" selected disabled>Choose the answer</option>
+                                    <option value="Answer one">General Inquiry</option>
+                                    <option value="Answer one">Reservation Question</option>
+                                    <option value="Answer one">Website Suggestion</option>
+                                </select>
+                            </div>
+                            
+                            <div class="name">
+                                <label class= "left" for="q2">Write the message:</label>
+                                <textarea name="q2" id="q2" cols="33" rows="2"></textarea>
+                            </div>
+                            <div id="check">
+                                <input type="checkbox" name="pet" id="pet"><br><br>
+                                <label for="places">Please subscribe me to the monthly newsletter.</label>
+                            </div>
+                            <div id="button">
+                                <label for="Submit"></label>
+                                <button type="submit" name="Submit" id="Submit">Submit Quiz</button>
+                            </div>
+                        </fieldset>
+
+                        
+                    </form>
                 </div>
             </main>
         </body>

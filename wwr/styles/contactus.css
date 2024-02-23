@@ -218,6 +218,139 @@ section div {
     height: 14rem;
 }
 
+form {
+    width: 650px;
+    height: auto;
+    margin: 20px auto;
+    padding: 1rem;
+    border: 1px solid transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 0.6rem;
+    background: var(--accent1-color);
+    display: grid;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 650px;
+    padding-left: 15px;
+    color: white;
+    font-size: 2.5rem;
+  }
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    border: none;
+}
+
+legend {
+    font-size: 1.3em;
+    border-bottom: 1px solid black;
+    display: grid;
+    width: 85%;
+}
+
+.name {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    padding: 10px;    
+}
+
+.name label {
+    text-align: left;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.name input {
+    width: 15rem;
+    border-radius: 5px;
+    grid-row: 2/3;
+}
+
+.lastname {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    padding: 10px;  
+}
+
+.lastname label {
+    text-align: left;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.lastname input {
+    width: 15rem;
+    border-radius: 5px;
+    grid-row: 2/3;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    /* font-size: ; */
+    border-radius: 5px;
+}
+
+#check {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+}
+
+#check label {
+    text-align: left;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+
+#check input {
+    width: 15rem;
+    border-radius: 5px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#check input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+  }
+
+#button{
+    margin: 0 auto;
+}
+
+button {
+    background-color: rgb(94, 4, 94);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: medium;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+button:hover { 
+    background-color: rgb(8, 8, 63);
+}
+
+.left {
+    text-align: left;
+}
+
 footer {
     width: 100%;
     color: var(--nav-link-color);
