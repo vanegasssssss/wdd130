@@ -90,7 +90,7 @@ header img {
     font-size: 35px;
     color: white;
     z-index: 2;
-    padding: 10px;
+    padding: 1%;
     top: 40%;
     background-color: rgb(63, 112, 116, 0.8);
 }
@@ -136,7 +136,9 @@ header img {
     z-index: 2;
     position: absolute;
     top: 33%;
+    padding: 1%;
     background-color: rgb(105, 186, 160, 0.7);
+    border: 1px solid black;
 }
 
 #history img {
@@ -223,4 +225,5 @@ footer nav img {
 
 main {
     background-color: var(--nav-hover-link-color);
+    font-family: "Roboto", sans-serif;
 }

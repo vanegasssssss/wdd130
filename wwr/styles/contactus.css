@@ -20,7 +20,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -32,7 +31,6 @@ header {
     gap: 20px;
     align-items: center;
     border-bottom: 5px solid black;
-    font-family: var(--heading-font);
 }
 
 header nav {
@@ -75,6 +73,7 @@ main {
     justify-content: center;
     align-items: center;
     height: auto;
+    font-family: "Roboto", sans-serif;
 }
 
 .contactcontainer {
@@ -357,6 +356,7 @@ footer {
     width: 100%;
     color: var(--nav-link-color);
     background-color: var(--nav-background-color);
+    font-family: "Roboto", sans-serif;
 }
 
 footer nav img {
